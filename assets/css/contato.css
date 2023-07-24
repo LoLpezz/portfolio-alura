@@ -1,0 +1,67 @@
+.contato{
+    background-color: var(--background-azul);
+    padding: 120px 0 50px 0;
+}
+
+.contato-container{
+    display: flex;
+    margin: 0 auto;
+    width: 1136px;
+}
+
+.contato__formulario{
+    margin-left: 15px;
+}
+
+.formulario__titulo{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.348rem;
+    margin-bottom: 15px;
+}
+
+.formulario__descricao{
+    font-weight: 500;
+    line-height: 1.174rem;
+    margin: 0;
+}
+
+.form__caixa{
+    margin: 25px 0 25px 0 ;
+}
+
+.caixa{
+    height: 2.4rem;
+}
+
+.form__input{
+    border: none;
+    outline: 0;
+    width: 656px;
+}
+
+.form__btn{
+    background-color: var(--btn--color);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    height: 3.188rem;
+    text-decoration: none;
+    width: 10.313rem;
+}
+
+label{
+    background-color: #fff;
+    display: flex;
+    font-size: 12px;
+}
+
+label, input, textarea{
+    padding: 15px 0 0 15px
+}
+
+.erro{
+    color: #e63636;
+    display: none;
+    font-size: 12px;
+}

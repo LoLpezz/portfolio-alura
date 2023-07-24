@@ -1,0 +1,9 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #F5F5F5;
+    color: var(--cor-preto-claro);
+    font-family: var(--raleway);
+}

@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 2rem 0 2rem 0;
+    width: 1136px;
+}
+
+.cabecalho-brand{
+    align-items: center;
+    display: flex;
+}
+
+.logo{
+    padding-right: 1rem ;
+}
+
+.cabecalho-titulo{
+    color: var(--cor-preto-claro);
+    font-family: var(--raleway);
+    width: 10rem;
+}
+
+.menu__lista{
+    display: flex;
+    list-style: none;
+}
+
+.menu__link{
+    color: var(--cor-preto-claro);
+    font-weight: 500;
+    font-family: var(--raleway);
+    font-size: 1rem;
+    line-height: 1.174rem;
+    margin-right: 1.25rem;
+    text-decoration: none;
+}
+
+#ativo{
+    font-weight: 700;
+}

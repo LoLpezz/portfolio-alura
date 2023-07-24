@@ -1,0 +1,52 @@
+.experiencia-titulo{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.348rem;
+    padding: 2.5rem 0;
+}
+
+.experiencia-container{
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    width: 1136px;
+}
+
+.experiencia__img img{
+    height: 406px;
+    width: 752px;
+}
+
+.experiencia__descricao{
+    margin-left: 1rem;
+}
+
+.experiencia__descricao2{
+    margin-right: 1rem;
+}
+
+.experiencia__botoes{
+    display: flex;
+}
+
+.botoes__btn{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 3.188rem;
+    text-decoration: none;
+    width: 7.25rem;
+}
+
+.branco{
+    border: 1px solid var(--btn--color);
+    color: var(--btn--color);
+    margin-right: 1rem;
+}
+
+.azul{
+    background-color: var(--btn--color);
+    color: #fff;
+}

@@ -1,0 +1,18 @@
+footer{
+    height: 102px;
+}
+
+.footer-container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: inherit;
+}
+
+.footer__descricao{
+    font-size: 1rem;
+    line-height: 1.174rem;
+    margin: 0;
+    
+}
